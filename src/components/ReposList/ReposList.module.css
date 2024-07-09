@@ -1,0 +1,36 @@
+.list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+}
+
+.listItem {
+    list-style: none;
+    padding: 16px;
+    border: 1px solid rgba(100, 100, 100, 0.7);
+}
+
+.listItemName b,
+.listItemLanguage b {
+    margin-right: 8px;
+}
+
+.listItemLanguage {
+
+}
+
+.listItemLink {
+    display: block;
+    background-color: var(--corBotao);
+    color: var(--corSecundaria);
+    text-align: center;
+    font-weight: bold;
+    margin-top: 8px;
+    padding: 8px;
+    text-decoration: none;
+    transition: 1.5s;
+}
+
+.listItemLink:hover {
+    background-color: lightgreen;
+}
